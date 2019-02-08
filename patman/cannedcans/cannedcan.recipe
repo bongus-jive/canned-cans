@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cannedfood", "count" : 1 },
+    { "item" : "essence", "count" : 1 }
+  ],
+  "output" : { "item" : "pat_cannedcan", "count" : 1 },
+  "groups" : [ "plain", "all" ]
+}

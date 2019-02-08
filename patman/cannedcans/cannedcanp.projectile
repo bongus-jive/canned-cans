@@ -1,0 +1,30 @@
+{
+  "projectileName" : "pat_cannedcanp",
+  "image" : "cannedcanp.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 180,
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "pat_cannedcanp",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 170
+    },
+    {
+      "action" : "projectile",
+      "type" : "pat_cannedcanp",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 190
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}
+
+

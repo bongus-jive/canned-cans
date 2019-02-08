@@ -1,0 +1,22 @@
+{
+  "itemName" : "pat_cannedcan",
+  "price" : 40,
+  "rarity" : "Essential",
+  "category" : "food",
+  "inventoryIcon" : "cannedcan.png",
+  "image" : "peanutcan.png",
+  "shortdescription" : "Canned Cans",
+  "description" : "yes",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.8,
+
+  "projectileType" : "pat_cannedcanp",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 12
+  }
+}
