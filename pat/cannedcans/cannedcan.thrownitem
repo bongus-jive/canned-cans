@@ -14,7 +14,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.8,
 
-  "projectileType" : "pat_cannedcanp",
+  "projectileType" : "pat_cannedcan",
   "projectileConfig" : {
     "speed" : 40,
     "power" : 12

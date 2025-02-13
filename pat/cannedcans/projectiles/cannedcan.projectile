@@ -1,6 +1,6 @@
 {
-  "projectileName" : "pat_cannedcanp",
-  "image" : "cannedcanp.png",
+  "projectileName" : "pat_cannedcan",
+  "image" : "cannedcan.png",
   "animationCycle" : 0.25,
   "physics" : "grenade",
   "frameNumber" : 4,
@@ -10,14 +10,14 @@
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "pat_cannedcanp",
+      "type" : "pat_cannedcan",
       "fuzzAngle" : 10,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 170
     },
     {
       "action" : "projectile",
-      "type" : "pat_cannedcanp",
+      "type" : "pat_cannedcan",
       "fuzzAngle" : 10,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 190
