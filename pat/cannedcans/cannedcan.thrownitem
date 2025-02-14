@@ -1,7 +1,7 @@
 {
   "itemName": "pat_cannedcan",
   "price": 40,
-  "rarity": "Essential",
+  "rarity": "Legendary",
   "category": "throwableItem",
   "inventoryIcon": "cannedcan.png",
   "image": "projectiles/cannedcan.png:0",
