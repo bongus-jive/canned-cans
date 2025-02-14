@@ -2,7 +2,7 @@
   "itemName": "pat_cannedcan",
   "price": 40,
   "rarity": "Essential",
-  "category": "food",
+  "category": "throwableItem",
   "inventoryIcon": "cannedcan.png",
   "image": "projectiles/cannedcan.png:0",
   "shortdescription": "Canned Cans",
