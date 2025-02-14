@@ -16,8 +16,6 @@
 
   "projectileType": "pat_cannedcan",
   "projectileConfig": {
-    "speed": 40,
-    "power": 12,
     "periodicActions": [
       {
         "time": 0,

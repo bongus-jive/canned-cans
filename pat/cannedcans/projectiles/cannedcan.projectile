@@ -6,6 +6,8 @@
   "orientationLocked": true,
   "damagePoly": [ [ -6, 0 ], [ -4, -4 ], [ 0, -6 ], [ 4, -4 ], [ 6, 0 ], [ 4, 4 ], [ 0, 6 ], [ -4, 4 ] ],
   "damageKind": "default",
+  "speed": 40,
+  "power": 12,
 
   "actionOnReap": [
     {
