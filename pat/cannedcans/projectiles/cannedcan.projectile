@@ -22,7 +22,12 @@
           "fuzzAngle": 30
         }
       ]
-    }
+    },
+    {
+      "action": "sound",
+      "options": [ "/pat/cannedcans/sfx/metal_solid_impact_hard1.ogg", "/pat/cannedcans/sfx/metal_solid_impact_hard4.ogg", "/pat/cannedcans/sfx/metal_solid_impact_hard5.ogg" ]
+    },
+    { "action": "spark" }
   ],
 
   "scripts": [ "cannedcan.lua" ],
