@@ -4,7 +4,7 @@
   "rarity": "Essential",
   "category": "food",
   "inventoryIcon": "cannedcan.png",
-  "image": "cannedcan.png",
+  "image": "projectiles/cannedcan.png:0",
   "shortdescription": "Canned Cans",
   "description": "yes",
 
