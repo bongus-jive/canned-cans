@@ -11,18 +11,17 @@
 
   "actionOnReap": [
     {
-      "action": "projectile",
-      "type": "pat_cannedcan",
-      "fuzzAngle": 10,
-      "inheritDamageFactor": 0.05,
-      "angleAdjust": 170
-    },
-    {
-      "action": "projectile",
-      "type": "pat_cannedcan",
-      "fuzzAngle": 10,
-      "inheritDamageFactor": 0.05,
-      "angleAdjust": 190
+      "action": "loop",
+      "count": 2,
+      "body": [
+        {
+          "action": "projectile",
+          "type": "pat_cannedcan",
+          "inheritDamageFactor": 1,
+          "angleAdjust": 180,
+          "fuzzAngle": 30
+        }
+      ]
     }
   ],
 
