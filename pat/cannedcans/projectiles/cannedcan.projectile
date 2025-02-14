@@ -1,12 +1,12 @@
 {
   "projectileName": "pat_cannedcan",
   "image": "cannedcan.png",
-  "animationCycle": 0.25,
   "physics": "grenade",
-  "frameNumber": 4,
-  "pointLight": false,
-  "speed": 180,
+  "flippable": false,
+  "orientationLocked": true,
   "damagePoly": [ [ -6, 0 ], [ -4, -4 ], [ 0, -6 ], [ 4, -4 ], [ 6, 0 ], [ 4, 4 ], [ 0, 6 ], [ -4, 4 ] ],
+  "damageKind": "default",
+
   "actionOnReap": [
     {
       "action": "projectile",
@@ -23,6 +23,7 @@
       "angleAdjust": 190
     }
   ],
-  "power": 5.0,
-  "damageKind": "default"
+
+  "scripts": [ "cannedcan.lua" ],
+  "rotationSpeed": 15
 }
